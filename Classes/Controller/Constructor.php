@@ -8,7 +8,9 @@ final class Constructor {
   
 	public function contentCore(string $content, array $conf): string
   		{
-      		include $_SERVER['DOCUMENT_ROOT'].'/system/adm/content.php';
+      		$content = '                    
+                    Тест конф
+                    ';
       
     		return $content;
   		}
