@@ -1,0 +1,17 @@
+###	CORE
+lib.content_info = COA
+
+lib.content_info.10 = USER_INT
+lib.content_info.10 {
+  userFunc = KmrSystems\KMR5\Controller\Constructor->contentCore
+}
+
+
+
+### CONFIG
+lib.content_config = COA
+
+lib.content_config.10 = USER_INT
+lib.content_config.10  {
+  userFunc = KmrSystems\KMR5\Controller\Constructor->head
+}

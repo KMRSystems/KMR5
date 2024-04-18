@@ -1,0 +1,30 @@
+{
+  "name": "kmrsystems/kmr5",
+  "description": "KMR Core 5",
+  "type": "typo3-cms-extension",
+  "version": "5.0.0",
+  "homepage": "https://kmr.systems",
+  "authors": [
+    {
+      "name": "KMR Systems",
+      "email": "office@kmr.systems",
+      "homepage": "https://kmr.systems",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "require": {
+	  "php": "^8.0 || ^8.2",
+      "typo3/cms-core": "^12.0 || ^12.4"
+    },
+  "autoload": {
+      "psr-4": {
+         "KmrSystems\\KMR5\\": "Classes/"
+      }
+   },
+   "extra": {
+      "typo3/cms": {
+         "extension-key": "my_extension"
+      }
+   }
+}
