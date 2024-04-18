@@ -10,6 +10,7 @@ final class Constructor {
   		{
       		$content = '                    
                     Тест конф
+		    ';
                     
       
     		return $content;
